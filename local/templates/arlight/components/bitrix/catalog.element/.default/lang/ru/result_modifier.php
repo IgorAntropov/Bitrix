@@ -1,0 +1,5 @@
+<?
+$MESS["ARLIGHT_ARSTORE_GOD"] = "год";
+$MESS["ARLIGHT_ARSTORE_GODA"] = "года";
+$MESS["ARLIGHT_ARSTORE_LET"] = "лет";
+?>

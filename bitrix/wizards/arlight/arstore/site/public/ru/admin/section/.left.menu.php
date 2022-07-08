@@ -1,0 +1,25 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Доставка", 
+		"#SITE_DIR#admin/section/edit/?section=delivering",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Оплата", 
+		"#SITE_DIR#admin/section/edit/?section=payment",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Шоурум", 
+		"#SITE_DIR#admin/section/showroom/",
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

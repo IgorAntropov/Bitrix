@@ -1,0 +1,7 @@
+<?
+$MESS["ARLIGHT_ARSTORE_ED_IZM"] = "Ед.изм";
+$MESS["ARLIGHT_ARSTORE_SRAVNENIE"] = "Сравнение";
+$MESS["ARLIGHT_ARSTORE_IZBRANNOE"] = "Избранное";
+$MESS["ARLIGHT_ARSTORE_V_KORZINU"] = "В корзину";
+$MESS["ARLIGHT_ARSTORE_OFORMITQ"] = "Оформить";
+?>

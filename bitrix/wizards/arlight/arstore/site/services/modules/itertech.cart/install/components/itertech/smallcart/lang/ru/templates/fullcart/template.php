@@ -1,0 +1,14 @@
+<?
+$MESS["ARLIGHT_ARSTORE_KORZINA"] = "Корзина";
+$MESS["ARLIGHT_ARSTORE_POKAZATQ_SOSTAV_ZAKA"] = "Показать состав заказа";
+$MESS["ARLIGHT_ARSTORE_SKRYTQ_SOSTAV_ZAKAZA"] = "Скрыть состав заказа";
+$MESS["ARLIGHT_ARSTORE_TOVAR"] = "Товар";
+$MESS["ARLIGHT_ARSTORE_CENA_KOLICESTVO_NALI"] = "Цена/Количество/Наличие";
+$MESS["ARLIGHT_ARSTORE_SUMMA"] = "Сумма";
+$MESS["ARLIGHT_ARSTORE_V_NALICII"] = "в наличии";
+$MESS["ARLIGHT_ARSTORE_OJIDAETSA"] = "ожидается";
+$MESS["ARLIGHT_ARSTORE_POD_ZAKAZ"] = "под заказ";
+$MESS["ARLIGHT_ARSTORE_SBORKA"] = "сборка";
+$MESS["ARLIGHT_ARSTORE_ED_IZM"] = "Ед.изм";
+$MESS["ARLIGHT_ARSTORE_VERNUTQSA"] = "вернуться";
+?>

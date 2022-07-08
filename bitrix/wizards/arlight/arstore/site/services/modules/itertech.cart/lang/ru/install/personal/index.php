@@ -1,0 +1,21 @@
+<?
+$MESS["ARLIGHT_ARSTORE_LICNYY_KABINET"] = "Личный кабинет";
+$MESS["ARLIGHT_ARSTORE_LICNYE_DANNYE"] = "Личные данные";
+$MESS["ARLIGHT_ARSTORE_MOI_ZAKAZY"] = "Мои заказы";
+$MESS["ARLIGHT_ARSTORE_KORZINA"] = "Корзина";
+$MESS["ARLIGHT_ARSTORE_ZAKAZY"] = "Заказы ";
+$MESS["ARLIGHT_ARSTORE_S_DATOY"] = "с датой";
+$MESS["ARLIGHT_ARSTORE_OT"] = "от";
+$MESS["ARLIGHT_ARSTORE_DO"] = "до";
+$MESS["ARLIGHT_ARSTORE_DATA_STATUS"] = "Дата/Статус";
+$MESS["ARLIGHT_ARSTORE_STATUS_ZAKAZA"] = "Статус заказа";
+$MESS["ARLIGHT_ARSTORE_PRINAT_OJIDAETSA_OP"] = "Принят, ожидается оплата";
+$MESS["ARLIGHT_ARSTORE_SUMMA"] = "Сумма";
+$MESS["ARLIGHT_ARSTORE_"] = "№";
+$MESS["ARLIGHT_ARSTORE_ARTIKUL"] = "Артикул";
+$MESS["ARLIGHT_ARSTORE_NAIMENOVANIE"] = "Наименование";
+$MESS["ARLIGHT_ARSTORE_KOLICESTVO"] = "Количество";
+$MESS["ARLIGHT_ARSTORE_PODROBNEE"] = "Подробнее";
+$MESS["ARLIGHT_ARSTORE_DLA_DOSTUPA_K_DANNYM"] = "Для доступа к данным необходимо авторизоваться.";
+$MESS["ARLIGHT_ARSTORE_AVTORIZOVATQSA"] = "Авторизоваться";
+?>

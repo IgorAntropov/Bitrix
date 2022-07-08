@@ -1,0 +1,38 @@
+.disable-delivery {
+    position: relative;
+}
+
+.disable-delivery:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    z-index: 1;
+}
+
+.disable-delivery-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    visibility: hidden;
+}
+
+.disable-delivery:hover:before {
+    visibility: hidden
+}
+
+.disable-delivery:hover .disable-delivery-text {
+    visibility: visible;
+}

@@ -1,0 +1,4 @@
+<?
+$MESS["ARLIGHT_ARSTORE_INTERESNOE"] = "Интересное";
+$MESS["ARLIGHT_ARSTORE_INFORMACIA"] = "Информация";
+?>

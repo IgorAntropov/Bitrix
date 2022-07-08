@@ -1,0 +1,36 @@
+<?
+$MESS["ARLIGHT_ARSTORE_PEREYTI_V_KATALOG"] = "Перейти в каталог";
+$MESS["ARLIGHT_ARSTORE_VAS_ZAKAZ"] = "Ваш заказ №";
+$MESS["ARLIGHT_ARSTORE_OT"] = "от ";
+$MESS["ARLIGHT_ARSTORE_USPESNO_SOZDAN"] = "успешно создан.";
+$MESS["ARLIGHT_ARSTORE_VY_MOJETE_SLEDITQ_ZA"] = "Вы можете следить за выполнением своего заказа в ";
+$MESS["ARLIGHT_ARSTORE_PERSONALQNOM_RAZDELE"] = "Персональном разделе сайта";
+$MESS["ARLIGHT_ARSTORE_OPLATITQ"] = "Оплатить";
+$MESS["ARLIGHT_ARSTORE_INFORMACIA_O_POKUPAT"] = "Информация о покупателе";
+$MESS["ARLIGHT_ARSTORE_UJE_ZAREGISTRIROVAN"] = "Уже зарегистрирован?";
+$MESS["ARLIGHT_ARSTORE_VOYTI_V_SISTEMU"] = "Войти в систему";
+$MESS["ARLIGHT_ARSTORE_KONTAKTNOE_LICO"] = "Контактное лицо*";
+$MESS["ARLIGHT_ARSTORE_TELEFON_FAKS"] = "Телефон/факс*";
+$MESS["ARLIGHT_ARSTORE_GOROD"] = "Город";
+$MESS["ARLIGHT_ARSTORE_ULICA"] = "Улица";
+$MESS["ARLIGHT_ARSTORE_DOM"] = "Дом";
+$MESS["ARLIGHT_ARSTORE_KV_OFIS"] = "Кв/офис";
+$MESS["ARLIGHT_ARSTORE_INDEKS"] = "Индекс*";
+$MESS["ARLIGHT_ARSTORE_DOP_INFORMACIA"] = "Доп. информация";
+$MESS["ARLIGHT_ARSTORE_POLA_OBAZATELQNYE_K"] = "поля обязательные к заполнению";
+$MESS["ARLIGHT_ARSTORE_NAJMITE_DLA_VYBORA_V"] = "Нажмите для выбора варианта доставки";
+$MESS["ARLIGHT_ARSTORE_IZMENITQ_VARIANT_DOS"] = "Изменить вариант доставки";
+$MESS["ARLIGHT_ARSTORE_NOVOSTI"] = "Новости";
+$MESS["ARLIGHT_ARSTORE_OPLATA"] = "Оплата";
+$MESS["ARLIGHT_ARSTORE_VVEDITE_PROMOKOD"] = "Введите промокод";
+$MESS["ARLIGHT_ARSTORE_PRIMENITQ"] = "Применить";
+$MESS["ARLIGHT_ARSTORE_OTMENITQ"] = "Отменить";
+$MESS["ARLIGHT_ARSTORE_SUMMA"] = "Сумма";
+$MESS["ARLIGHT_ARSTORE_VAM_PREDOSTAVLENA_SK"] = "Вам предоставлена скидка";
+$MESS["ARLIGHT_ARSTORE_VASA_EKONOMIA"] = "Ваша экономия";
+$MESS["ARLIGHT_ARSTORE_ITOGO_ZA_TOVARY"] = "Итого за товары";
+$MESS["ARLIGHT_ARSTORE_DOPOLNITELQNAA_SKIDK"] = "Дополнительная скидка при оформлении";
+$MESS["ARLIGHT_ARSTORE_DOSTAVKA"] = "Доставка:";
+$MESS["ARLIGHT_ARSTORE_ITOGO_SO_SKIDKOY"] = "Итого со скидкой:";
+$MESS["ARLIGHT_ARSTORE_OFORMITQ_ZAKAZ"] = "Оформить заказ";
+?>

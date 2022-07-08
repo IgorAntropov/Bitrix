@@ -1,0 +1,31 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="39.8px" height="53.5px" viewBox="0 0 39.8 53.5" xml:space="preserve">
+<style type="text/css">
+.st0{opacity:0.3;fill:url(#SVGID_1_);}
+.st1{fill:#ff0019;}
+.st2{fill:#ff0019;}
+.st3{fill:#ff6675;}
+.st4{fill:#ff0019;}
+.st5{fill:#FFFFFF;}
+.st6{opacity:0.3;fill:url(#SVGID_2_);}
+</style>
+<g>
+    <radialGradient id="SVGID_1_" cx="19.9133" cy="51.8045" r="16.4078" gradientTransform="matrix(1 0 0 8.424900e-02 0 47.44)" gradientUnits="userSpaceOnUse">
+        <stop  offset="0.181" style="stop-color:#000000"></stop>
+        <stop  offset="1" style="stop-color:#000000;stop-opacity:0"></stop>
+	</radialGradient>
+    <ellipse class="st0" cx="19.9" cy="51.8" rx="17.5" ry="1.7"></ellipse>
+	<g>
+		<g>
+            <path class="st1" d="M0,19.9c0,12.6,19.9,28.3,19.9,28.3V0C8.9,0,0,8.9,0,19.9z"></path>
+            <path class="st2" d="M19.9,0v48.2c0,0,19.9-15.7,19.9-28.3C39.8,8.9,30.9,0,19.9,0z"></path>
+		</g>
+		<g>
+			<path class="st3" d="M11.1,37.7c-6.2-6.9-9.5-13.1-9.5-17.8C1.6,9.8,9.8,1.6,19.9,1.6V0C8.9,0,0,8.9,0,19.9 c0,12.6,19.9,28.3,19.9,28.3v-2C18.2,44.8,14.6,41.7,11.1,37.7z"></path>
+			<path class="st4" d="M19.9,0L19.9,0l0,1.6h0c10.1,0,18.4,8.2,18.4,18.4c0,4.8-3.3,10.9-9.5,17.8c-3.6,3.9-7.2,7.1-8.8,8.5h0v2h0 c0,0,19.9-15.7,19.9-28.3C39.8,8.9,30.9,0,19.9,0z"></path>
+		</g>
+		<g>
+			<path class="st5" d="M19.9,6.5c-7.4,0-13.4,6-13.4,13.4c0,3.4,3,8.7,8.3,14.5c1.8,2,3.6,3.8,5.1,5.2c1.6-1.4,3.4-3.3,5.2-5.3 c5.2-5.8,8.2-11,8.2-14.4C33.3,12.5,27.3,6.5,19.9,6.5z"></path>
+		</g>
+	</g>
+</g>
+</svg>

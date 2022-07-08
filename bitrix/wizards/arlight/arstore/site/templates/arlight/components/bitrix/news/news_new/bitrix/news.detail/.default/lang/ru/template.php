@@ -1,0 +1,13 @@
+<?
+$MESS["ARLIGHT_ARSTORE_NOVOSTQ"] = "Новость | ";
+$MESS["ARLIGHT_ARSTORE_NRAVITSA"] = "Нравится";
+$MESS["ARLIGHT_ARSTORE_NE_NRAVITSA"] = "Не нравится";
+$MESS["ARLIGHT_ARSTORE_PODELITQSA"] = "ПОДЕЛИТЬСЯ";
+$MESS["ARLIGHT_ARSTORE_SVAZANNYE_TOVARY"] = "Связанные товары";
+$MESS["ARLIGHT_ARSTORE_POSLEDNIE_NOVOSTI"] = "Последние новости";
+$MESS["ARLIGHT_ARSTORE_SLAYDER"] = "Слайдер";
+$MESS["ARLIGHT_ARSTORE_POSLEDNIE_PROEKTY"] = "Последние проекты";
+$MESS["ARLIGHT_ARSTORE_POSLEDNIE_STATQI"] = "Последние статьи";
+$MESS["ARLIGHT_ARSTORE_POSLEDNIE_VIDEO"] = "Последние видео";
+$MESS["ARLIGHT_ARSTORE_POSLEDNIE_SHEMY_MONT"] = "Последние схемы монтажа ";
+?>

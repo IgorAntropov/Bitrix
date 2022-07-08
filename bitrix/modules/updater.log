@@ -1,0 +1,56 @@
+2022-07-07 18:24:58 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207498/arlight.arstore/updater1.1.5.php': CopyFiles(install/wizards/arlight/arstore/site/services/modules/itertech.cart/install/components/itertech/checkout/product_list_for_email_message_default.php, /bitrix/components/itertech/checkout/product_list_for_email_message_default.php)
+2022-07-07 18:24:58 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207498/arlight.arstore/updater1.1.5.php': CopyFiles(install/wizards/arlight/arstore, /bitrix/wizards/arlight/arstore)
+2022-07-07 18:24:58 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207498/arlight.arstore/updater1.1.5.php': CopyFiles(install/wizards/arlight/arstore/site/templates, /local/templates)
+2022-07-07 18:24:58 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207498/arlight.arstore/updater1.1.5.php': CopyFiles(install/wizards/arlight/arstore/site/services/modules, /bitrix/modules)
+2022-07-07 18:24:59 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207499/arlight.arstore/updater1.2.3.php': CopyFiles(install/wizards/arlight/arstore/site/public/ru, /)
+2022-07-07 18:24:59 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207499/arlight.arstore/updater1.2.3.php': CopyFiles(install/wizards/arlight/arstore/site/templates, /local/templates)
+2022-07-07 18:25:00 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207500/arlight.arstore/updater1.3.18.php': CopyFiles(install/wizards/arlight/arstore/site/services/modules/arstore_doc.php, /bitrix/admin/arstore_doc.php)
+2022-07-07 18:25:00 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207500/arlight.arstore/updater1.3.18.php': CopyFiles(include.php, /include.php)
+2022-07-07 18:25:00 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207500/arlight.arstore/updater1.3.18.php': CopyFiles(install/wizards/arlight/arstore/site/services/modules, /bitrix/modules)
+2022-07-07 18:25:00 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207500/arlight.arstore/updater1.3.18.php': CopyFiles(install/wizards/arlight/arstore/site/services/modules/itertech.cart/install/components/itertech/smallcart/templates/.default/template.php, /bitrix/components/itertech/smallcart/templates/.default/template.php)
+2022-07-07 18:25:00 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207500/arlight.arstore/updater1.3.18.php': CopyFiles(install/wizards/arlight/arstore/site/public/ru/admin/, /admin)
+2022-07-07 18:25:00 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207500/arlight.arstore/updater1.3.18.php': CopyFiles(install/wizards/arlight/arstore/site/public/ru/catalog/, /catalog)
+2022-07-07 18:25:00 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207500/arlight.arstore/updater1.3.18.php': CopyFiles(install/wizards/arlight/arstore/site/public/ru/ajax/, /ajax)
+2022-07-07 18:25:00 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207500/arlight.arstore/updater1.3.18.php': CopyFiles(install/wizards/arlight/arstore/site/templates, /local/templates)
+2022-07-07 18:25:00 - CRUPDIC1 - Run updater '/bitrix/updates/update_m1657207500/arlight.arstore/updater1.3.18.php': InstallWizard(arlight:arstore)
+2022-07-07 18:25:00 - CRUPDCDF1 - Run updater '/bitrix/updates/update_m1657207500/arlight.arstore/updater1.3.18.php': CopyDirFiles(/bitrix/updates/update_m1657207500/arlight.arstore/install/wizards/arlight/arstore, /bitrix/wizards/arlight/arstore)
+2022-07-07 18:25:01 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207501/arlight.arstore/updater1.4.4/index.php': CopyFiles(install/wizards/arlight/arstore/site/services/modules, /bitrix/modules)
+2022-07-07 18:25:01 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207501/arlight.arstore/updater1.4.4/index.php': CopyFiles(install/wizards/arlight/arstore/site/services/modules/itertech.cart/install/components/itertech, /bitrix/components/itertech)
+2022-07-07 18:25:01 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207501/arlight.arstore/updater1.4.4/index.php': CopyFiles(install/wizards/arlight/arstore/site/public/ru/cron/, /cron)
+2022-07-07 18:25:01 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207501/arlight.arstore/updater1.4.4/index.php': CopyFiles(install/wizards/arlight/arstore/site/templates, /local/templates)
+2022-07-07 18:25:02 - CRUPDIC1 - Run updater '/bitrix/updates/update_m1657207501/arlight.arstore/updater1.4.4/index.php': InstallWizard(arlight:arstore)
+2022-07-07 18:25:02 - CRUPDCDF1 - Run updater '/bitrix/updates/update_m1657207501/arlight.arstore/updater1.4.4/index.php': CopyDirFiles(/bitrix/updates/update_m1657207501/arlight.arstore/install/wizards/arlight/arstore, /bitrix/wizards/arlight/arstore)
+2022-07-07 18:25:03 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207503/arlight.arstore/updater1.5.0/index.php': CopyFiles(install/wizards/arlight/arstore/site/public/ru/cron/, /cron)
+2022-07-07 18:25:03 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207503/arlight.arstore/updater1.5.0/index.php': CopyFiles(install/wizards/arlight/arstore/site/templates, /local/templates)
+2022-07-07 18:25:04 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207504/arlight.arstore/updater1.6.11/index.php': CopyFiles(install/wizards/arlight/arstore/site/services/modules, /bitrix/modules)
+2022-07-07 18:25:04 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207504/arlight.arstore/updater1.6.11/index.php': CopyFiles(install/wizards/arlight/arstore/site/services/modules/itertech.cart/install/components/itertech/, /bitrix/components/itertech/)
+2022-07-07 18:25:05 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207505/arlight.arstore/updater1.7.4/index.php': CopyFiles(install/wizards/arlight/arstore/site/public/ru/cron, /cron)
+2022-07-07 18:25:05 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1657207505/arlight.arstore/updater1.7.4/index.php': CopyFiles(install/wizards/arlight/arstore/site/templates, /local/templates)
+2022-07-07 19:08:06 -  - exec CUpdateClient::GetUpdatesList
+2022-07-07 19:08:06 -  - exec CUpdateClient::CollectRequestData
+2022-07-07 19:08:06 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=21.1200.800&VERSION=22.0.300&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=btrx&CHHB=btrx&CSAB=127.0.0.1&SUID=7236114863d78fe3cbb08ca04c5d6a66&CANGZIP=Y&CLIENT_PHPVER=7.4.29&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=22.0.300&bitm_b24connector=21.100.0&bitm_bitrixcloud=22.0.0&bitm_clouds=22.0.0&bitm_fileman=22.0.0&bitm_highloadblock=22.200.0&bitm_iblock=21.800.300&bitm_landing=21.1300.200&bitm_messageservice=22.200.100&bitm_perfmon=21.0.0&bitm_rest=22.0.100&bitm_search=22.0.0&bitm_seo=22.0.200&bitm_socialservices=22.0.250&bitm_translate=21.100.0&bitm_ui=22.400.50&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2022-07-07 19:08:06 -  - exec CUpdateClient::GetHTTPPage
+2022-07-07 19:08:06 -  - TIME GetUpdatesList(request) 0.315 sec
+2022-07-07 19:08:06 -  - exec CUpdateClient::ParseServerData
+2022-07-07 19:08:06 -  - exec CUpdateClient::executeCounters
+2022-07-07 19:08:06 -  - exec CUpdateClient::CollectRequestData
+2022-07-07 19:08:06 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=21.1200.800&VERSION=22.0.300&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=btrx&CHHB=btrx&CSAB=127.0.0.1&SUID=7236114863d78fe3cbb08ca04c5d6a66&CANGZIP=Y&CLIENT_PHPVER=7.4.29&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=22.0.300&bitm_b24connector=21.100.0&bitm_bitrixcloud=22.0.0&bitm_clouds=22.0.0&bitm_fileman=22.0.0&bitm_highloadblock=22.200.0&bitm_iblock=21.800.300&bitm_landing=21.1300.200&bitm_messageservice=22.200.100&bitm_perfmon=21.0.0&bitm_rest=22.0.100&bitm_search=22.0.0&bitm_seo=22.0.200&bitm_socialservices=22.0.250&bitm_translate=21.100.0&bitm_ui=22.400.50&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y&query_type=counter&cntr_result[378]=
+2022-07-07 19:08:06 -  - exec CUpdateClient::GetHTTPPage
+2022-07-07 19:08:07 -  - TIME executeCounters 0.175 sec
+2022-07-07 19:21:53 -  - exec CUpdateClient::GetUpdatesList
+2022-07-07 19:21:53 -  - exec CUpdateClient::CollectRequestData
+2022-07-07 19:21:53 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=21.1200.800&VERSION=22.0.300&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=btrx&CHHB=btrx&CSAB=127.0.0.1&SUID=7236114863d78fe3cbb08ca04c5d6a66&CANGZIP=Y&CLIENT_PHPVER=7.4.29&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=22.0.300&bitm_b24connector=21.100.0&bitm_bitrixcloud=22.0.0&bitm_clouds=22.0.0&bitm_fileman=22.0.0&bitm_highloadblock=22.200.0&bitm_iblock=21.800.300&bitm_landing=21.1300.200&bitm_messageservice=22.200.100&bitm_perfmon=21.0.0&bitm_rest=22.0.100&bitm_search=22.0.0&bitm_seo=22.0.200&bitm_socialservices=22.0.250&bitm_translate=21.100.0&bitm_ui=22.400.50&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2022-07-07 19:21:53 -  - exec CUpdateClient::GetHTTPPage
+2022-07-07 19:21:53 -  - TIME GetUpdatesList(request) 0.256 sec
+2022-07-07 19:21:53 -  - exec CUpdateClient::ParseServerData
+2022-07-07 19:22:01 -  - exec CUpdateClient::GetUpdatesList
+2022-07-07 19:22:01 -  - exec CUpdateClient::CollectRequestData
+2022-07-07 19:22:01 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=21.1200.800&VERSION=22.0.300&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=btrx&CHHB=btrx&CSAB=127.0.0.1&SUID=7236114863d78fe3cbb08ca04c5d6a66&CANGZIP=Y&CLIENT_PHPVER=7.4.29&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=22.0.300&bitm_b24connector=21.100.0&bitm_bitrixcloud=22.0.0&bitm_clouds=22.0.0&bitm_fileman=22.0.0&bitm_highloadblock=22.200.0&bitm_iblock=21.800.300&bitm_landing=21.1300.200&bitm_messageservice=22.200.100&bitm_perfmon=21.0.0&bitm_rest=22.0.100&bitm_search=22.0.0&bitm_seo=22.0.200&bitm_socialservices=22.0.250&bitm_translate=21.100.0&bitm_ui=22.400.50&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2022-07-07 19:22:01 -  - exec CUpdateClient::GetHTTPPage
+2022-07-07 19:22:01 -  - TIME GetUpdatesList(request) 0.866 sec
+2022-07-07 19:22:01 -  - exec CUpdateClient::ParseServerData
+2022-07-07 19:22:01 -  - exec CUpdateClient::executeCounters
+2022-07-07 19:22:01 -  - exec CUpdateClient::CollectRequestData
+2022-07-07 19:22:02 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=21.1200.800&VERSION=22.0.300&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=btrx&CHHB=btrx&CSAB=127.0.0.1&SUID=7236114863d78fe3cbb08ca04c5d6a66&CANGZIP=Y&CLIENT_PHPVER=7.4.29&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=22.0.300&bitm_b24connector=21.100.0&bitm_bitrixcloud=22.0.0&bitm_clouds=22.0.0&bitm_fileman=22.0.0&bitm_highloadblock=22.200.0&bitm_iblock=21.800.300&bitm_landing=21.1300.200&bitm_messageservice=22.200.100&bitm_perfmon=21.0.0&bitm_rest=22.0.100&bitm_search=22.0.0&bitm_seo=22.0.200&bitm_socialservices=22.0.250&bitm_translate=21.100.0&bitm_ui=22.400.50&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y&query_type=counter&cntr_result[378]=
+2022-07-07 19:22:02 -  - exec CUpdateClient::GetHTTPPage
+2022-07-07 19:22:02 -  - TIME executeCounters 0.176 sec

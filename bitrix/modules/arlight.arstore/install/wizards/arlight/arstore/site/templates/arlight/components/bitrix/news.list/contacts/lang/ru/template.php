@@ -1,0 +1,29 @@
+<?
+$MESS["CT_BNL_ELEMENT_DELETE_CONFIRM"] = "Будет удалена вся информация, связанная с этой записью. Продолжить?";
+$MESS["ARLIGHT_ARSTORE_VSE"] = "Все";
+$MESS["ARLIGHT_ARSTORE_SHEMA_PROEZDA_K"] = "Схема проезда к ";
+$MESS["ARLIGHT_ARSTORE_SHEMA_PROEZDA"] = "Схема проезда ";
+$MESS["ARLIGHT_ARSTORE_OFIS_PRODAJ"] = "ОФИС ПРОДАЖ";
+$MESS["ARLIGHT_ARSTORE_ROZNICNYY_MAGAZIN"] = "Розничный магазин";
+$MESS["ARLIGHT_ARSTORE_SOU_RUM"] = "Шоу-рум";
+$MESS["ARLIGHT_ARSTORE_FIRMENNYY_SOU_RUM"] = "Фирменный шоу-рум";
+$MESS["ARLIGHT_ARSTORE_DIZAYN_STUDIA"] = "Дизайн студия";
+$MESS["ARLIGHT_ARSTORE_M"] = "м.";
+$MESS["ARLIGHT_ARSTORE_G"] = "г. ";
+$MESS["ARLIGHT_ARSTORE_VREMA_RABOTY"] = "Время работы";
+$MESS["ARLIGHT_ARSTORE_NALICNYE"] = "Наличные";
+$MESS["ARLIGHT_ARSTORE_PO_REKVIZITAM"] = "По реквизитам";
+$MESS["ARLIGHT_ARSTORE_KARTOY_ONLAYN"] = "Картой Онлайн";
+$MESS["ARLIGHT_ARSTORE_KARTOY_V_MAGAZINE"] = "Картой в магазине";
+$MESS["ARLIGHT_ARSTORE_URIDICESKIM"] = "Юридическим";
+$MESS["ARLIGHT_ARSTORE_CASTNYM_LICAM"] = "Частным лицам";
+$MESS["ARLIGHT_ARSTORE_URIDICESKIM_LICAM"] = "Юридическим лицам ";
+$MESS["ARLIGHT_ARSTORE_CASTNYM_LICAM1"] = "Частным лицам ";
+$MESS["ARLIGHT_ARSTORE_RASCET_OBORUDOVANIA"] = "Расчет оборудования ";
+$MESS["ARLIGHT_ARSTORE_MONTAJ_OBORUDOVANIA"] = "Монтаж оборудования ";
+$MESS["ARLIGHT_ARSTORE_SPECIALISTY_PO_OBORU"] = "Специалисты по оборудованию Arlight";
+$MESS["ARLIGHT_ARSTORE_SPECIALISTY"] = "Специалисты KNX";
+$MESS["ARLIGHT_ARSTORE_SPECIALISTY1"] = "Специалисты DALI";
+$MESS["ARLIGHT_ARSTORE_SOU_RUM1"] = "Шоу-рум";
+$MESS["ARLIGHT_ARSTORE_POKAZATQ_NA_KARTE"] = "показать на карте";
+?>

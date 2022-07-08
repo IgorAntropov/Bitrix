@@ -1,0 +1,44 @@
+.delivery-page .contacts__item-block {
+    padding: 0;
+}
+
+.delivery-page .contacts__item-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.delivery-page .contacts__item-block--row {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.delivery-page .contacts__item-col, .delivery-page .contacts__item-col--address {
+    width: 100%;
+    border: none;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.delivery-page .contacts__item-title {
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+.delivery-page .contacts__item-time {
+    font-size: 14px;
+    padding-left: 15px;
+    display: inline-block;
+    border-left: none;
+    width: 300px;
+}
+
+.delivery-page .contacts__item {
+    margin: 30px 0;
+}
+
+.contacts__item-content p:last-of-type {
+    margin-bottom: 0;
+}

@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/templates/arlight/components/bitrix/catalog/.default/style.css" => "16572075511122","/local/templates/arlight/components/bitrix/catalog.section.list/main/style.css" => "16572075517151",]; ?>

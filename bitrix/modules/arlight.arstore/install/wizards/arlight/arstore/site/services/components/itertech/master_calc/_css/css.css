@@ -1,0 +1,60 @@
+.master-calc {
+    margin: 0 0 50px;
+}
+
+.master-calc-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 10px;
+}
+
+.master-calc-item label {
+    width: 200px;
+    padding: 2px 0;
+    margin: 0 5px 0 0;
+}
+
+.master-calc-item input,
+.master-calc-item select {
+    padding: 2px;
+    margin: 0 5px;
+    width: 300px;
+}
+
+.master-calc-item input[readonly=readonly] {
+    border-width: 0;
+    background: none;
+    font-weight: bold;
+    cursor: default;
+}
+
+.master-calc-item .radion-group {
+    display: block;
+}
+
+.master-calc-item .radion-group label {
+    display: block;
+    width: auto;
+    clear: both;
+
+}
+
+.master-calc-item .errors {
+    margin: 0px 10px;
+}
+
+.master-calc-item .error {
+    display: inline;
+    margin: 0 0 0 10px;
+    color: red;
+}
+
+.master-calc-item .messages {
+    margin: 0px 10px;
+}
+
+.master-calc-item .message {
+    display: inline;
+    margin: 0 0 0 10px;
+    color: green;
+}

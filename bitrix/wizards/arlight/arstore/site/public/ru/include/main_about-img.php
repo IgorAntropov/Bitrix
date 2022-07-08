@@ -1,0 +1,1 @@
+<img class="" src="<?= SITE_TEMPLATE_PATH ?>/img/content/about.jpg" alt="О нас">

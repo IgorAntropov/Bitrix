@@ -1,0 +1,1 @@
+<? require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/krayt.carwash/admin/page_install_carwash.php");?>

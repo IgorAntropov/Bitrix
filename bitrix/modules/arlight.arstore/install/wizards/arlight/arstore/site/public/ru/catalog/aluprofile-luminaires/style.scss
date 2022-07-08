@@ -1,0 +1,1281 @@
+.content-wrapper__alulamps{
+  .container{
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+  .breadcrumbs{
+    display: none;
+  }
+
+}
+.alulamps{
+  width: 100%;
+  padding-bottom: 80px;
+
+  img{
+    width: 100%;
+  }
+
+  h6{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin: 68px;
+
+    span{
+      font-size: 54px;
+      font-weight: 300;
+      display: block;
+      line-height: 1.7;
+    }
+  }
+
+  ul{
+    list-style: none;
+    padding: 0;
+  }
+
+  .bottom-line{
+    display: block;
+    width: 100%;
+  }
+
+  &__descr{
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    font-size: 20px;
+
+    & > div{
+      width: calc(50% - 30px);
+      padding-bottom: 20px;
+
+      p{
+        margin-bottom: 0;
+
+        &:not(:last-child){
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+
+  &__variants{
+    padding-top: 100px;
+
+    ul{
+      display: flex;
+      justify-content: space-between;
+      width: calc(100% - 140px);
+      margin: 0 auto;
+
+      li{
+        width: calc((100% - 35px*8)/9);
+
+        .colors__variant{
+          width: 90px;
+          height: 90px;
+          border-radius: 50%;
+          margin: 0 auto;
+          display: block;
+
+          &--white{
+            background-color: #fff;
+            border: 1px solid #4c5256;
+          }
+          &--black{
+            background-color: #000000;
+          }
+          &--red{
+            background-color: #ff0019;
+          }
+          &--orange{
+            background-color: #fbba00;
+          }
+          &--yellow{
+            background-color: #ffed00;
+          }
+          &--green{
+            background-color: #13a538;
+          }
+          &--lblue{
+            background-color: #5bc5f2;
+          }
+          &--blue{
+            background-color: #0069b4;
+          }
+          &--violet{
+            background-color: #554596;
+          }
+        }
+        p{
+          font-size: 22px;
+          font-weight: 300;
+          margin-top: 30px;
+          margin-bottom: 20px;
+          text-align: center;
+        }
+
+        span{
+          display: block;
+          font-size: 20px;
+          text-align: center;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  &__slider{
+    width: 100%;
+    overflow: hidden;
+
+    &.slick-slider{
+      .slider__nav-arrow{
+        width: 33px;
+        height: 64px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+        cursor: pointer;
+
+        &--left{
+          left: 15px;
+        }
+
+        &--right{
+          right: 15px;
+        }
+
+        &.slick-disabled{
+          opacity: 0.2;
+          cursor: default;
+        }
+      }
+
+      img{
+        width: 100%;
+      }
+    }
+  }
+
+
+
+  &__header{
+    background-image: url("/assets/static/aluprofile-luminaires/banner-1.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    padding-left: 120px;
+    padding-top: 185px;
+
+    &-title{
+      width: 100%;
+      max-width: 600px;
+
+      h2{
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-weight: normal;
+
+        span{
+          //font-size: 25px;
+          //font-weight: bold;
+          display: inline-block;
+          position: relative;
+
+          &:after{
+            content: url("/assets/static/aluprofile-luminaires/triang-1.svg");
+            position: absolute;
+            display: block;
+            width: 8px;
+            height: auto;
+            right: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+        }
+      }
+
+      p{
+        font-size: 18px;
+        margin-bottom: 50px;
+      }
+
+    }
+
+    &-button.button{
+      height: 75px;
+      width: 217px;
+      font-size: 30px;
+      font-weight: normal;
+      transition: all 0.2s ease;
+      padding: 0;
+      line-height: 70px;
+      border: solid 1px #EF172F;
+      background-color: #EF172F;
+      color: #ffffff;
+
+
+      &:hover{
+        background-color: #ffffff;
+        color: #EF172F;
+      }
+
+      &.fixed{
+        position: fixed;
+        bottom: 30px;
+        z-index: 10;
+      }
+    }
+  }
+
+  &__series{
+    padding-top: 115px;
+
+    &-logo{
+      width: 100%;
+      margin: 0 auto;
+      max-width: 675px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      svg{
+        fill: #485156;
+        cursor: pointer;
+        transition: all 0.1s linear;
+        height: 112px;
+        margin-right: 50px;
+        margin-bottom: 90px;
+
+        &:last-child,
+        &:nth-child(3){
+          margin-right: 0;
+        }
+
+        &:hover,
+        &.active{
+          fill: #ff0019;
+        }
+      }
+    }
+
+    &-wrap{
+      width: 100%;
+      max-width: 1185px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+
+      .slick-list,
+      .slick-track{
+        height: 100%;
+      }
+
+    }
+
+    &-names{
+      width: 100%;
+      position: relative;
+      flex-shrink: 0;
+      max-width: 850px;
+
+      &.lamp__list{
+        margin-top: 0;
+      }
+
+      &:before{
+        content: '';
+        position: absolute;
+        display: block;
+        width: 0;
+        height: 0;
+        //top: -44px;
+        bottom: -13px;
+        right: 0;
+        z-index: 1;
+        border-bottom: 300px solid #ffffff;
+        border-left: 140px solid transparent;
+      }
+
+      &:after{
+        content: "";
+        position: absolute;
+        display: block;
+        height: 330px;
+        width: 1px;
+        background-color: #959393;
+        transform: rotateZ(25deg);
+        transform-origin: top;
+        //top: -44px;
+        bottom: -44px;
+        right: 0;
+      }
+
+      .slick-prev{
+        display: none !important;
+      }
+
+      .slick-next{
+        width: 70px;
+        height: 63px;
+        position: absolute;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-image: url(/assets/static/aluprofile-luminaires/arrow-gr-left.svg) !important;
+        transform: rotateZ(180deg);
+
+        &:before{
+          display: none;
+        }
+
+        &:hover{
+          opacity: 0.5;
+        }
+
+        &.slick-disabled{
+          opacity: 0.2;
+          cursor: default;
+        }
+      }
+
+      .lamp{
+        &__item{
+          height: 100%;
+
+          &:nth-of-type(odd){
+            background-color: transparent;
+          }
+
+          &:nth-child(even){
+            background-color: transparent;
+          }
+        }
+
+        &__content{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          padding: 0;
+          max-width: 705px;
+          height: 100%;
+
+          a{
+            margin-bottom: 15px;
+            display: inline-block;
+          }
+        }
+        &__article{
+          font-size: 31px;
+          display: block;
+          color: #43525A;
+        }
+        &__name{
+          font-size: 20px;
+          line-height: 1.85;
+        }
+        &__description{
+          max-height: none;
+        }
+        &__description,
+        &__description--custom{
+          font-size: 20px;
+        }
+      }
+    }
+
+
+    &-list{
+      padding-left: 67px;
+      border-left: 1px solid #DADADB;
+
+      &.lamp__nav{
+        margin: 0 0 0 60px;
+
+        ul{
+          display: block;
+
+          li{
+            padding: 0;
+            margin-bottom: 2px;
+            border-right: 0;
+            margin-right: 0;
+
+            a{
+              height: auto;
+              min-width: auto;
+              border-radius: 0;
+              border: none;
+              -ms-text-align-last: left;
+              text-align-last: left;
+              display: block;
+              padding: 3px 10px;
+              font-size: 18px;
+              color: #43525A;
+              white-space: nowrap;
+
+              &.active,
+              &:hover{
+                background-color: #e8e7e9;
+                color: #4c5256;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  &__structure{
+    padding-top: 95px;
+    position: relative;
+
+    &:after{
+      content: "";
+      position: absolute;
+      display: block;
+      height: 3px;
+      width: calc(100% - 40px);
+      border: 1px solid #DADADB;
+      background-color: transparent;
+      bottom: -98px;
+      left: 20px;
+    }
+
+    img{
+      width: 100%;
+
+      &.bottom-line{
+        width: 100%;
+        max-width: 738px;
+      }
+    }
+
+    &-legend{
+      margin-top: 115px;
+      margin-bottom: 30px;
+      padding: 0 30px;
+
+      ul{
+        width: 100%;
+        max-width: 1290px;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        list-style: none;
+
+        &.mobile{
+          display: none;
+        }
+
+        li{
+          width: calc(50% - 22px);
+          font-size: 20px;
+          display: flex;
+          margin-bottom: 40px;
+
+          span{
+            display: block;
+            width: 40px;
+            height: 40px;
+            line-height: 37px;
+            border: 1px solid rgba(76, 82, 86, 0.5);
+            border-radius: 50%;
+            font-size: 24px;
+            margin-right: 21px;
+            flex-shrink: 0;
+            text-align: center;
+          }
+
+          &:first-child{
+            margin-bottom: 80px;
+          }
+        }
+      }
+    }
+  }
+
+  &__colors{
+    padding: 70px 30px 100px 30px;
+  }
+
+  &__lights{
+    padding: 0 30px;
+    position: relative;
+
+    &:after{
+      content: "";
+      position: absolute;
+      display: block;
+      height: 3px;
+      width: calc(100% - 40px);
+      border: 1px solid #DADADB;
+      background-color: transparent;
+      bottom: -109px;
+      left: 20px;
+    }
+
+    .alulamps__variants{
+      padding-top: 90px;
+      margin-bottom: 145px;
+
+      ul{
+        max-width: 1565px;
+
+        li{
+          width: calc((100% - 70px*7)/8);
+        }
+      }
+    }
+
+    .bottom-line{
+      margin-left: auto;
+      margin-right: -30px;
+      max-width: 972px;
+    }
+
+
+  }
+
+  &__cri{
+    padding-top: 25px;
+
+    &-descr{
+      padding-bottom: 110px;
+      align-items: flex-end;
+
+      & > div{
+        padding-bottom: 5px;
+
+        &:first-child{
+          border-left: none;
+          font-family: "Raleway";
+          font-size: 297px;
+          font-weight: 100;
+          padding-left: 50px;
+          padding-bottom: 0;
+          line-height: 213px;
+        }
+
+        p span{
+          font-weight: bold;
+          display: block;
+        }
+      }
+    }
+
+  }
+
+  &__types{
+    padding: 20px 20px 0 20px;
+
+    h6{
+      margin-bottom: 65px;
+      margin-top: 80px;
+    }
+    .alulamps__type-wrap{
+      border-bottom: 1px solid #b7babb;
+
+      &:last-child{
+        padding-bottom: 70px;
+      }
+    }
+    .alulamps__type{
+      max-width: 1185px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 35px 30px 40px 66px;
+      margin: 0 auto;
+
+      &:last-child{
+        border-bottom: none;
+      }
+
+      &-img{
+        width: 280px;
+        height: 280px;
+        flex-shrink: 0;
+        margin-right: 120px;
+        position: relative;
+
+        &:after{
+          content: url("/assets/static/aluprofile-luminaires/triang-2.svg");
+          position: absolute;
+          display: block;
+          width: 26px;
+          height: auto;
+          right: -68px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+      }
+
+      &-title{
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+      &-features{
+        p{
+          font-size: 18px;
+        }
+        ul{
+          font-size: 18px;
+          list-style: disc;
+          padding-left: 30px;
+        }
+      }
+
+    }
+  }
+
+  &__figures{
+
+    h6{
+      margin-bottom: 73px;
+      margin-top: 50px;
+    }
+
+    &-descr{
+      margin-bottom: 80px;
+      padding: 0 30px;
+      max-width: 1320px;
+    }
+  }
+
+  &__advantages{
+    padding: 37px 30px 0 30px;
+
+    h6{
+      margin-bottom: 80px;
+    }
+
+    ul{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%;
+      max-width: 1700px;
+      margin: 0 auto;
+
+      li{
+        width: 380px;
+        margin-bottom: 60px;
+        
+        div{
+          height: 100px;
+          color: #ffffff;
+          font-size: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          background-color: #ff0019;
+          padding: 15px;
+          position: relative;
+
+          &:after{
+            content: "";
+            position: absolute;
+            display: block;
+            width: 45px;
+            height: 1px;
+            right: -52px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #DADADB;
+          }
+        }
+
+        &:nth-child(4n){
+          div:after{
+            content: none;
+          }
+        }
+
+        p{
+          font-size: 20px;
+          margin-top: 26px;
+          padding: 0 26px 10px 26px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  &__slider2{
+    margin-top: 50px;
+
+    &:before{
+      border-top: 166px solid #ffffff;
+      border-left: 100vw solid transparent;
+    }
+
+    &:after{
+      border-bottom: 225px solid #ffffff;
+      border-left: 100vw solid transparent;
+    }
+  }
+
+  &__architect{
+    padding: 40px 30px 0 30px;
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      display: block;
+      height: 3px;
+      width: calc(100% - 40px);
+      border: 1px solid #DADADB;
+      background-color: transparent;
+      bottom: -109px;
+      left: 20px;
+    }
+
+    &-descr{
+      margin-bottom: 100px;
+    }
+
+    img{
+      max-width: 972px;
+      margin-left: auto;
+      margin-right: -30px;
+    }
+  }
+
+  &__form{
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 63px 30px 0 30px;
+
+    .button{
+      width: 220px;
+      height: 44px;
+      font-size: 23px;
+    }
+
+    .row-end{
+      display: flex;
+      justify-content: flex-end;
+    }
+
+  }
+
+}
+
+@media all and (max-width: 1800px){
+  .alulamps__variants ul li {
+    width: calc((100% - 10px*8)/9);
+  }
+  .alulamps__lights:after{
+    bottom: -30px;
+  }
+  .alulamps__lights .alulamps__variants{
+    padding-top: 70px;
+    margin-bottom: 70px;
+  }
+  .alulamps__lights .alulamps__variants ul li {
+    width: calc((100% - 10px*7)/8);
+  }
+  .alulamps__advantages ul li {
+    width: calc(25% - 10px);
+  }
+  .alulamps__advantages ul li div:after{
+    display: none;
+  }
+}
+
+@media all and (max-width: 1600px){
+  .alulamps__variants ul{
+    flex-wrap: wrap;
+  }
+  .alulamps__variants ul li{
+    width: calc((100% - 10px*4)/5);
+
+    &:nth-child(3){
+      margin-bottom: 40px;
+    }
+  }
+  .alulamps__slider1:before,
+  .alulamps__slider2:before {
+    border-top: 70px solid #ffffff;
+  }
+  .alulamps__slider1:after,
+  .alulamps__slider2:after{
+    border-bottom: 100px solid #ffffff
+  }
+  .alulamps__lights .alulamps__variants ul li{
+    width: 25%;
+    margin-bottom: 40px;
+  }
+  .alulamps__advantages ul li div{
+    font-size: 25px;
+  }
+}
+
+@media all and (max-width: 1250px){
+  .alulamps__series-wrap{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 0;
+  }
+  .alulamps__series-names:before{
+    border-bottom: 263px solid #ffffff;
+    border-left: 122px solid transparent;
+    top: 0;
+  }
+  .alulamps__series-names:after{
+    height: 290px;
+    top: 0;
+  }
+  .alulamps__series-names .slick-next{
+    right: -30px;
+  }
+  .alulamps__series-list.lamp__nav{
+    margin-left: 0;
+    margin-bottom: 40px;
+    padding-right: 20px;
+    border-left: 0;
+  }
+  .alulamps__series-list.lamp__nav ul{
+    display: flex;
+    padding-top: 0;
+  }
+  .alulamps__cri-descr{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .alulamps__cri-descr > div:first-child {
+    font-size: 200px;
+    line-height: 156px;
+    text-align: right;
+  }
+  .alulamps__advantages ul li{
+    width: calc(50% - 20px);
+  }
+  .alulamps__architect:after{
+    bottom: -80px;
+  }
+  .alulamps__header-button.button.fixed{
+    position: static;
+  }
+}
+
+@media all and (max-width: 991px){
+  .alulamps__series{
+    padding: 50px 20px;
+  }
+  .alulamps__series-names .lamp__item{
+    border-bottom: none;
+  }
+  .alulamps__series-names .lamp__description,
+  .alulamps__series-names .lamp__description--custom{
+    display: block;
+  }
+  .alulamps__series-names:before,
+  .alulamps__series-names:after{
+    right: 0;
+  }
+  .alulamps__series-names .slick-next{
+    right: 0;
+    height: 60px;
+  }
+  .alulamps__series-names .lamp__content{
+    max-width: none;
+    padding-right: 160px;
+  }
+  .alulamps__series-list.lamp__nav{
+    padding: 0;
+  }
+  .alulamps__series-list.lamp__nav ul{
+    flex-wrap: wrap;
+  }
+  .alulamps__structure{
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+    &:after{
+      bottom: 0;
+    }
+  }
+  .alulamps__structure-legend{
+    margin-top: 100px;
+    margin-bottom: 0;
+  }
+  .alulamps__structure-legend ul{
+    &.desktop{
+      display: none;
+    }
+    &.mobile{
+      display: block;
+
+      li{
+        width: 100%;
+
+        &:first-child{
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+  .alulamps__colors{
+    padding-top: 10px;
+    padding-bottom: 70px;
+  }
+  .alulamps h6{
+    margin: 40px 20px;
+  }
+  .alulamps__variants{
+    padding-top: 50px;
+  }
+  .alulamps__variants ul{
+    width: 100%;
+  }
+  .alulamps__variants ul li{
+    width: calc((100% - 10px*2)/3);
+
+    &:nth-child(3),
+    &:nth-child(5){
+      margin-bottom: 30px;
+    }
+    p{
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    span{
+      font-size: 18px;
+    }
+  }
+  .alulamps__slider1:before,
+  .alulamps__slider2:before{
+    border-top: 30px solid #ffffff;
+  }
+  .alulamps__slider1:after,
+  .alulamps__slider2:after{
+    border-bottom: 50px solid #ffffff
+  }
+  .alulamps__slider.slick-slider .slider__nav-arrow{
+    width: 20px;
+    height: auto;
+  }
+  .alulamps__lights{
+    padding-top: 20px;
+
+    .alulamps__variants{
+      padding-top: 50px;
+    }
+  }
+  .alulamps__cri-descr{
+    align-items: center;
+  }
+  .alulamps h6 span{
+    line-height: 1.3;
+  }
+  .alulamps__types .alulamps__type-img {
+    width: 200px;
+    height: 200px;
+  }
+  .alulamps__figures{
+    padding-top: 20px;
+  }
+  .alulamps__figures-descr{
+    margin-bottom: 50px;
+  }
+  .alulamps__advantages{
+    padding-top: 20px;
+  }
+  .alulamps__slider2{
+    margin-top: 0;
+  }
+  .alulamps__architect{
+    padding-top: 20px;
+
+    &:after{
+      bottom: -50px;
+    }
+  }
+  .alulamps__architect-descr{
+    margin-bottom: 50px;
+  }
+}
+
+@media all and (max-width: 768px){
+
+  .alulamps__header{
+    height: 630px;
+    padding-left: 50px;
+    padding-top: 135px;
+  }
+  .alulamps__header-title h2{
+    font-size: 30px;
+  }
+  .alulamps__header-title p {
+    font-size: 18px;
+  }
+  .alulamps__header-button.button {
+    width: 220px;
+    height: 44px;
+    font-size: 23px;
+    line-height: 44px;
+  }
+  .alulamps__series {
+    padding-bottom: 25px;
+  }
+  .alulamps__series-names .lamp__item{
+    border: none;
+  }
+  .alulamps__series-names .lamp__description,
+  .alulamps__series-names .lamp__description--custom{
+    font-size: 16px;
+  }
+  .alulamps__series-logo{
+    padding-left: 20px;
+    justify-content: center;
+  }
+  .alulamps__series-logo svg{
+    margin-right: 20px;
+    margin-bottom: 50px;
+    height: 85px;
+  }
+  .alulamps__series-logo svg:last-child, .alulamps__series-logo svg:nth-child(3){
+    margin-right: 20px;
+  }
+  .alulamps__series-names:before,
+  .alulamps__series-names:after{
+    display: none;
+  }
+  .alulamps__series-names .lamp__item .lamp__content{
+    padding-right: 100px;
+  }
+  .alulamps__structure{
+    padding-top: 25px;
+  }
+  .alulamps__structure-legend{
+    margin-top: 50px;
+  }
+  .alulamps__descr{
+    display: block;
+    & > div{
+      width: 100%;
+    }
+  }
+  .alulamps__cri-descr{
+    display: flex;
+    padding-bottom: 50px;
+  }
+  .alulamps__cri-descr > div:first-child {
+    font-size: 100px;
+    line-height: 1;
+    text-align: left;
+    width: auto;
+    padding-left: 0;
+    padding-right: 20px;
+  }
+  .alulamps__types h6{
+    margin-bottom: 0;
+  }
+  .alulamps__types .alulamps__type-wrap:last-child {
+    padding-bottom: 10px;
+  }
+  .alulamps__types .alulamps__type{
+    padding-left: 30px;
+  }
+  .alulamps__types .alulamps__type-img{
+    margin-right: 70px;
+    &:after{
+      right: -50px;
+    }
+  }
+  .alulamps__advantages ul li{
+    margin-bottom: 40px;
+  }
+  .alulamps__advantages ul li div {
+    letter-spacing: -0.5px;
+  }
+
+}
+
+@media all and (max-width: 575px){
+  .alulamps__header {
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  .alulamps__header-title h2 span:after{
+    display: none;
+  }
+  .alulamps__series-logo svg{
+    height: 65px;
+    margin-bottom: 30px;
+  }
+  .alulamps__series-names .slick-next{
+    top: 0;
+    right: 0;
+    width: 50px;
+  }
+  .alulamps__series-names .lamp__item .lamp__content{
+    padding-right: 60px;
+  }
+  .alulamps__series-names .lamp__item{
+    padding-top: 30px;
+  }
+  .alulamps__series-list.lamp__nav{
+    margin-bottom: 0;
+  }
+  .alulamps__descr > div p{
+    font-size: 16px;
+  }
+  .alulamps__structure-legend{
+    padding: 0 20px;
+  }
+  .alulamps__structure-legend ul li{
+    font-size: 16px;
+    margin-bottom: 30px;
+
+    &:first-child{
+      margin-bottom: 30px;
+    }
+
+    span{
+      width: 30px;
+      height: 30px;
+      line-height: 26px;
+      font-size: 18px;
+    }
+  }
+  .alulamps__colors{
+    padding: 20px 20px 50px 20px;
+  }
+  .alulamps h6 {
+    margin: 30px 0;
+    font-size: 34px;
+  }
+  .alulamps__variants{
+    padding-top: 40px;
+  }
+  .alulamps__variants ul li {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+
+    &:nth-child(3),
+    &:nth-child(5){
+      margin-bottom: 20px;
+    }
+
+    .colors__variant{
+      width: 70px;
+      height: 70px;
+    }
+  }
+  .alulamps__slider1:before,
+  .alulamps__slider2:before{
+    border-top: 20px solid #ffffff;
+  }
+  .alulamps__slider1:after,
+  .alulamps__slider2:after{
+    border-bottom: 20px solid #ffffff
+  }
+  .alulamps__lights{
+    padding: 20px 20px 0 20px;
+  }
+  .alulamps__lights .alulamps__variants {
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+  .alulamps__lights .alulamps__variants ul li{
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+  .alulamps__lights .bottom-line{
+    margin-right: -20px;
+  }
+  .alulamps__cri-descr {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .alulamps__cri-descr > div:first-child{
+    font-size: 50px;
+  }
+  .alulamps h6 span {
+    font-size: 38px;
+  }
+  .alulamps__types .alulamps__type{
+    padding: 30px 20px;
+    flex-direction: column;
+    align-items: center;
+
+    &-img{
+      margin-right: 0;
+      margin-bottom: 20px;
+      &:after{
+        display: none;
+      }
+    }
+  }
+  .alulamps__types .alulamps__type-title {
+     font-size: 25px;
+     margin-bottom: 20px;
+   }
+  .alulamps__types .alulamps__type-features p,
+  .alulamps__types .alulamps__type-features ul{
+    font-size: 16px;
+  }
+  .alulamps__figures-descr{
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+
+  .alulamps__advantages{
+    padding: 45px 20px 0 20px;
+  }
+  .alulamps__advantages ul li {
+    width: 100%;
+    margin-bottom: 20px;
+    p{
+      font-size: 16px;
+    }
+    div {
+      height: 60px;
+      font-size: 20px;
+      padding: 10px;
+    }
+  }
+  .alulamps__slider2{
+    margin-top: 30px;
+  }
+  .alulamps__form{
+    padding: 20px;
+  }
+  .alulamps__form-title.user-section__title{
+    font-size: 28px;
+  }
+  .alulamps__architect{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .alulamps__architect-descr{
+    margin-bottom: 50px;
+  }
+  .alulamps__architect img{
+    margin-right: -20px;
+  }
+}
+
+@media all and (max-width: 482px){
+  .alulamps__header {
+    padding-top: 55px;
+  }
+}

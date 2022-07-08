@@ -1,0 +1,6 @@
+<?
+$MESS["ARLIGHT_ARSTORE_KUPITQ"] = "Купить";
+$MESS["ARLIGHT_ARSTORE_V_KORZINU"] = "В корзину";
+$MESS["ARLIGHT_ARSTORE_PODROBNEE"] = "Подробнее";
+$MESS["ARLIGHT_ARSTORE_NET_V_NALICII"] = "Нет в наличии";
+?>

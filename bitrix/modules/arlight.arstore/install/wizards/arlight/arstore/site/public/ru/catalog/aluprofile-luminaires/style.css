@@ -1,0 +1,1042 @@
+.content-wrapper__alulamps .container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0; }
+.content-wrapper__alulamps .breadcrumbs {
+  display: none; }
+
+.alulamps {
+  width: 100%;
+  padding-bottom: 80px; }
+  .alulamps img {
+    width: 100%; }
+  .alulamps h6 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin: 68px; }
+    .alulamps h6 span {
+      font-size: 54px;
+      font-weight: 300;
+      display: block;
+      line-height: 1.7; }
+  .alulamps ul {
+    list-style: none;
+    padding: 0; }
+  .alulamps .bottom-line {
+    display: block;
+    width: 100%; }
+  .alulamps__descr {
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    font-size: 20px; }
+    .alulamps__descr > div {
+      width: calc(50% - 30px);
+      padding-bottom: 20px; }
+      .alulamps__descr > div p {
+        margin-bottom: 0; }
+        .alulamps__descr > div p:not(:last-child) {
+          margin-bottom: 40px; }
+  .alulamps__variants {
+    padding-top: 100px; }
+    .alulamps__variants ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      width: calc(100% - 140px);
+      margin: 0 auto; }
+      .alulamps__variants ul li {
+        width: calc((100% - 35px*8)/9); }
+        .alulamps__variants ul li .colors__variant {
+          width: 90px;
+          height: 90px;
+          border-radius: 50%;
+          margin: 0 auto;
+          display: block; }
+          .alulamps__variants ul li .colors__variant--white {
+            background-color: #fff;
+            border: 1px solid #4c5256; }
+          .alulamps__variants ul li .colors__variant--black {
+            background-color: #000000; }
+          .alulamps__variants ul li .colors__variant--red {
+            background-color: #ff0019; }
+          .alulamps__variants ul li .colors__variant--orange {
+            background-color: #fbba00; }
+          .alulamps__variants ul li .colors__variant--yellow {
+            background-color: #ffed00; }
+          .alulamps__variants ul li .colors__variant--green {
+            background-color: #13a538; }
+          .alulamps__variants ul li .colors__variant--lblue {
+            background-color: #5bc5f2; }
+          .alulamps__variants ul li .colors__variant--blue {
+            background-color: #0069b4; }
+          .alulamps__variants ul li .colors__variant--violet {
+            background-color: #554596; }
+        .alulamps__variants ul li p {
+          font-size: 22px;
+          font-weight: 300;
+          margin-top: 30px;
+          margin-bottom: 20px;
+          text-align: center; }
+        .alulamps__variants ul li span {
+          display: block;
+          font-size: 20px;
+          text-align: center;
+          font-weight: 600; }
+  .alulamps__slider {
+    width: 100%;
+    overflow: hidden; }
+    .alulamps__slider.slick-slider .slider__nav-arrow {
+      width: 33px;
+      height: 64px;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+      z-index: 1;
+      cursor: pointer; }
+      .alulamps__slider.slick-slider .slider__nav-arrow--left {
+        left: 15px; }
+      .alulamps__slider.slick-slider .slider__nav-arrow--right {
+        right: 15px; }
+      .alulamps__slider.slick-slider .slider__nav-arrow.slick-disabled {
+        opacity: 0.2;
+        cursor: default; }
+    .alulamps__slider.slick-slider img {
+      width: 100%; }
+  .alulamps__header {
+    background-image: url("/assets/static/aluprofile-luminaires/banner-1.png");
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    padding-left: 120px;
+    padding-top: 185px; }
+    .alulamps__header-title {
+      width: 100%;
+      max-width: 600px; }
+      .alulamps__header-title h2 {
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-weight: normal; }
+        .alulamps__header-title h2 span {
+          display: inline-block;
+          position: relative; }
+          .alulamps__header-title h2 span:after {
+            content: url("/assets/static/aluprofile-luminaires/triang-1.svg");
+            position: absolute;
+            display: block;
+            width: 8px;
+            height: auto;
+            right: -20px;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%); }
+      .alulamps__header-title p {
+        font-size: 18px;
+        margin-bottom: 50px; }
+    .alulamps__header-button.button {
+      height: 75px;
+      width: 217px;
+      font-size: 30px;
+      font-weight: normal;
+      -webkit-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+      padding: 0;
+      line-height: 70px;
+      border: solid 1px #EF172F;
+      background-color: #EF172F;
+      color: #ffffff; }
+      .alulamps__header-button.button:hover {
+        background-color: #ffffff;
+        color: #EF172F; }
+      .alulamps__header-button.button.fixed {
+        position: fixed;
+        bottom: 30px;
+        z-index: 10; }
+  .alulamps__series {
+    padding-top: 115px; }
+    .alulamps__series-logo {
+      width: 100%;
+      margin: 0 auto;
+      max-width: 675px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      .alulamps__series-logo svg {
+        fill: #485156;
+        cursor: pointer;
+        -webkit-transition: all 0.1s linear;
+        transition: all 0.1s linear;
+        height: 112px;
+        margin-right: 50px;
+        margin-bottom: 90px; }
+        .alulamps__series-logo svg:last-child, .alulamps__series-logo svg:nth-child(3) {
+          margin-right: 0; }
+        .alulamps__series-logo svg:hover, .alulamps__series-logo svg.active {
+          fill: #ff0019; }
+    .alulamps__series-wrap {
+      width: 100%;
+      max-width: 1185px;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .alulamps__series-wrap .slick-list,
+      .alulamps__series-wrap .slick-track {
+        height: 100%; }
+    .alulamps__series-names {
+      width: 100%;
+      position: relative;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      max-width: 850px; }
+      .alulamps__series-names.lamp__list {
+        margin-top: 0; }
+      .alulamps__series-names:before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 0;
+        height: 0;
+        bottom: -13px;
+        right: 0;
+        z-index: 1;
+        border-bottom: 300px solid #ffffff;
+        border-left: 140px solid transparent; }
+      .alulamps__series-names:after {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 330px;
+        width: 1px;
+        background-color: #959393;
+        -webkit-transform: rotateZ(25deg);
+                transform: rotateZ(25deg);
+        -webkit-transform-origin: top;
+                transform-origin: top;
+        bottom: -44px;
+        right: 0; }
+      .alulamps__series-names .slick-prev {
+        display: none !important; }
+      .alulamps__series-names .slick-next {
+        width: 70px;
+        height: 63px;
+        position: absolute;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-image: url(/assets/static/aluprofile-luminaires/arrow-gr-left.svg) !important;
+        -webkit-transform: rotateZ(180deg);
+                transform: rotateZ(180deg); }
+        .alulamps__series-names .slick-next:before {
+          display: none; }
+        .alulamps__series-names .slick-next:hover {
+          opacity: 0.5; }
+        .alulamps__series-names .slick-next.slick-disabled {
+          opacity: 0.2;
+          cursor: default; }
+      .alulamps__series-names .lamp__item {
+        height: 100%; }
+        .alulamps__series-names .lamp__item:nth-of-type(odd) {
+          background-color: transparent; }
+        .alulamps__series-names .lamp__item:nth-child(even) {
+          background-color: transparent; }
+      .alulamps__series-names .lamp__content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding: 0;
+        max-width: 705px;
+        height: 100%; }
+        .alulamps__series-names .lamp__content a {
+          margin-bottom: 15px;
+          display: inline-block; }
+      .alulamps__series-names .lamp__article {
+        font-size: 31px;
+        display: block;
+        color: #43525A; }
+      .alulamps__series-names .lamp__name {
+        font-size: 20px;
+        line-height: 1.85; }
+      .alulamps__series-names .lamp__description {
+        max-height: none; }
+      .alulamps__series-names .lamp__description, .alulamps__series-names .lamp__description--custom {
+        font-size: 20px; }
+    .alulamps__series-list {
+      padding-left: 67px;
+      border-left: 1px solid #DADADB; }
+      .alulamps__series-list.lamp__nav {
+        margin: 0 0 0 60px; }
+        .alulamps__series-list.lamp__nav ul {
+          display: block; }
+          .alulamps__series-list.lamp__nav ul li {
+            padding: 0;
+            margin-bottom: 2px;
+            border-right: 0;
+            margin-right: 0; }
+            .alulamps__series-list.lamp__nav ul li a {
+              height: auto;
+              min-width: auto;
+              border-radius: 0;
+              border: none;
+              -ms-text-align-last: left;
+              text-align-last: left;
+              display: block;
+              padding: 3px 10px;
+              font-size: 18px;
+              color: #43525A;
+              white-space: nowrap; }
+              .alulamps__series-list.lamp__nav ul li a.active, .alulamps__series-list.lamp__nav ul li a:hover {
+                background-color: #e8e7e9;
+                color: #4c5256; }
+  .alulamps__structure {
+    padding-top: 95px;
+    position: relative; }
+    .alulamps__structure:after {
+      content: "";
+      position: absolute;
+      display: block;
+      height: 3px;
+      width: calc(100% - 40px);
+      border: 1px solid #DADADB;
+      background-color: transparent;
+      bottom: -98px;
+      left: 20px; }
+    .alulamps__structure img {
+      width: 100%; }
+      .alulamps__structure img.bottom-line {
+        width: 100%;
+        max-width: 738px; }
+    .alulamps__structure-legend {
+      margin-top: 115px;
+      margin-bottom: 30px;
+      padding: 0 30px; }
+      .alulamps__structure-legend ul {
+        width: 100%;
+        max-width: 1290px;
+        margin: 0 auto;
+        padding: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        list-style: none; }
+        .alulamps__structure-legend ul.mobile {
+          display: none; }
+        .alulamps__structure-legend ul li {
+          width: calc(50% - 22px);
+          font-size: 20px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          margin-bottom: 40px; }
+          .alulamps__structure-legend ul li span {
+            display: block;
+            width: 40px;
+            height: 40px;
+            line-height: 37px;
+            border: 1px solid rgba(76, 82, 86, 0.5);
+            border-radius: 50%;
+            font-size: 24px;
+            margin-right: 21px;
+            -ms-flex-negative: 0;
+                flex-shrink: 0;
+            text-align: center; }
+          .alulamps__structure-legend ul li:first-child {
+            margin-bottom: 80px; }
+  .alulamps__colors {
+    padding: 70px 30px 100px 30px; }
+  .alulamps__lights {
+    padding: 0 30px;
+    position: relative; }
+    .alulamps__lights:after {
+      content: "";
+      position: absolute;
+      display: block;
+      height: 3px;
+      width: calc(100% - 40px);
+      border: 1px solid #DADADB;
+      background-color: transparent;
+      bottom: -109px;
+      left: 20px; }
+    .alulamps__lights .alulamps__variants {
+      padding-top: 90px;
+      margin-bottom: 145px; }
+      .alulamps__lights .alulamps__variants ul {
+        max-width: 1565px; }
+        .alulamps__lights .alulamps__variants ul li {
+          width: calc((100% - 70px*7)/8); }
+    .alulamps__lights .bottom-line {
+      margin-left: auto;
+      margin-right: -30px;
+      max-width: 972px; }
+  .alulamps__cri {
+    padding-top: 25px; }
+    .alulamps__cri-descr {
+      padding-bottom: 110px;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end; }
+      .alulamps__cri-descr > div {
+        padding-bottom: 5px; }
+        .alulamps__cri-descr > div:first-child {
+          border-left: none;
+          font-family: "Raleway";
+          font-size: 297px;
+          font-weight: 100;
+          padding-left: 50px;
+          padding-bottom: 0;
+          line-height: 213px; }
+        .alulamps__cri-descr > div p span {
+          font-weight: bold;
+          display: block; }
+  .alulamps__types {
+    padding: 20px 20px 0 20px; }
+    .alulamps__types h6 {
+      margin-bottom: 65px;
+      margin-top: 80px; }
+    .alulamps__types .alulamps__type-wrap {
+      border-bottom: 1px solid #b7babb; }
+      .alulamps__types .alulamps__type-wrap:last-child {
+        padding-bottom: 70px; }
+    .alulamps__types .alulamps__type {
+      max-width: 1185px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      padding: 35px 30px 40px 66px;
+      margin: 0 auto; }
+      .alulamps__types .alulamps__type:last-child {
+        border-bottom: none; }
+      .alulamps__types .alulamps__type-img {
+        width: 280px;
+        height: 280px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        margin-right: 120px;
+        position: relative; }
+        .alulamps__types .alulamps__type-img:after {
+          content: url("/assets/static/aluprofile-luminaires/triang-2.svg");
+          position: absolute;
+          display: block;
+          width: 26px;
+          height: auto;
+          right: -68px;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+                  transform: translateY(-50%); }
+      .alulamps__types .alulamps__type-title {
+        font-size: 30px;
+        margin-bottom: 30px; }
+      .alulamps__types .alulamps__type-features p {
+        font-size: 18px; }
+      .alulamps__types .alulamps__type-features ul {
+        font-size: 18px;
+        list-style: disc;
+        padding-left: 30px; }
+  .alulamps__figures h6 {
+    margin-bottom: 73px;
+    margin-top: 50px; }
+  .alulamps__figures-descr {
+    margin-bottom: 80px;
+    padding: 0 30px;
+    max-width: 1320px; }
+  .alulamps__advantages {
+    padding: 37px 30px 0 30px; }
+    .alulamps__advantages h6 {
+      margin-bottom: 80px; }
+    .alulamps__advantages ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      width: 100%;
+      max-width: 1700px;
+      margin: 0 auto; }
+      .alulamps__advantages ul li {
+        width: 380px;
+        margin-bottom: 60px; }
+        .alulamps__advantages ul li div {
+          height: 100px;
+          color: #ffffff;
+          font-size: 30px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          text-align: center;
+          background-color: #ff0019;
+          padding: 15px;
+          position: relative; }
+          .alulamps__advantages ul li div:after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 45px;
+            height: 1px;
+            right: -52px;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+            background-color: #DADADB; }
+        .alulamps__advantages ul li:nth-child(4n) div:after {
+          content: none; }
+        .alulamps__advantages ul li p {
+          font-size: 20px;
+          margin-top: 26px;
+          padding: 0 26px 10px 26px;
+          margin-bottom: 0; }
+  .alulamps__slider2 {
+    margin-top: 50px; }
+    .alulamps__slider2:before {
+      border-top: 166px solid #ffffff;
+      border-left: 100vw solid transparent; }
+    .alulamps__slider2:after {
+      border-bottom: 225px solid #ffffff;
+      border-left: 100vw solid transparent; }
+  .alulamps__architect {
+    padding: 40px 30px 0 30px;
+    position: relative; }
+    .alulamps__architect:after {
+      content: "";
+      position: absolute;
+      display: block;
+      height: 3px;
+      width: calc(100% - 40px);
+      border: 1px solid #DADADB;
+      background-color: transparent;
+      bottom: -109px;
+      left: 20px; }
+    .alulamps__architect-descr {
+      margin-bottom: 100px; }
+    .alulamps__architect img {
+      max-width: 972px;
+      margin-left: auto;
+      margin-right: -30px; }
+  .alulamps__form {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 63px 30px 0 30px; }
+    .alulamps__form .button {
+      width: 220px;
+      height: 44px;
+      font-size: 23px; }
+    .alulamps__form .row-end {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; }
+
+@media all and (max-width: 1800px) {
+  .alulamps__variants ul li {
+    width: calc((100% - 10px*8)/9); }
+
+  .alulamps__lights:after {
+    bottom: -30px; }
+
+  .alulamps__lights .alulamps__variants {
+    padding-top: 70px;
+    margin-bottom: 70px; }
+
+  .alulamps__lights .alulamps__variants ul li {
+    width: calc((100% - 10px*7)/8); }
+
+  .alulamps__advantages ul li {
+    width: calc(25% - 10px); }
+
+  .alulamps__advantages ul li div:after {
+    display: none; } }
+@media all and (max-width: 1600px) {
+  .alulamps__variants ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+
+  .alulamps__variants ul li {
+    width: calc((100% - 10px*4)/5); }
+    .alulamps__variants ul li:nth-child(3) {
+      margin-bottom: 40px; }
+
+  .alulamps__slider1:before,
+  .alulamps__slider2:before {
+    border-top: 70px solid #ffffff; }
+
+  .alulamps__slider1:after,
+  .alulamps__slider2:after {
+    border-bottom: 100px solid #ffffff; }
+
+  .alulamps__lights .alulamps__variants ul li {
+    width: 25%;
+    margin-bottom: 40px; }
+
+  .alulamps__advantages ul li div {
+    font-size: 25px; } }
+@media all and (max-width: 1250px) {
+  .alulamps__series-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 0; }
+
+  .alulamps__series-names:before {
+    border-bottom: 263px solid #ffffff;
+    border-left: 122px solid transparent;
+    top: 0; }
+
+  .alulamps__series-names:after {
+    height: 290px;
+    top: 0; }
+
+  .alulamps__series-names .slick-next {
+    right: -30px; }
+
+  .alulamps__series-list.lamp__nav {
+    margin-left: 0;
+    margin-bottom: 40px;
+    padding-right: 20px;
+    border-left: 0; }
+
+  .alulamps__series-list.lamp__nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 0; }
+
+  .alulamps__cri-descr {
+    padding-left: 30px;
+    padding-right: 30px; }
+
+  .alulamps__cri-descr > div:first-child {
+    font-size: 200px;
+    line-height: 156px;
+    text-align: right; }
+
+  .alulamps__advantages ul li {
+    width: calc(50% - 20px); }
+
+  .alulamps__architect:after {
+    bottom: -80px; }
+
+  .alulamps__header-button.button.fixed {
+    position: static; } }
+@media all and (max-width: 991px) {
+  .alulamps__series {
+    padding: 50px 20px; }
+
+  .alulamps__series-names .lamp__item {
+    border-bottom: none; }
+
+  .alulamps__series-names .lamp__description,
+  .alulamps__series-names .lamp__description--custom {
+    display: block; }
+
+  .alulamps__series-names:before,
+  .alulamps__series-names:after {
+    right: 0; }
+
+  .alulamps__series-names .slick-next {
+    right: 0;
+    height: 60px; }
+
+  .alulamps__series-names .lamp__content {
+    max-width: none;
+    padding-right: 160px; }
+
+  .alulamps__series-list.lamp__nav {
+    padding: 0; }
+
+  .alulamps__series-list.lamp__nav ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+
+  .alulamps__structure {
+    padding-top: 50px;
+    padding-bottom: 10px; }
+    .alulamps__structure:after {
+      bottom: 0; }
+
+  .alulamps__structure-legend {
+    margin-top: 100px;
+    margin-bottom: 0; }
+
+  .alulamps__structure-legend ul.desktop {
+    display: none; }
+  .alulamps__structure-legend ul.mobile {
+    display: block; }
+    .alulamps__structure-legend ul.mobile li {
+      width: 100%; }
+      .alulamps__structure-legend ul.mobile li:first-child {
+        margin-bottom: 40px; }
+
+  .alulamps__colors {
+    padding-top: 10px;
+    padding-bottom: 70px; }
+
+  .alulamps h6 {
+    margin: 40px 20px; }
+
+  .alulamps__variants {
+    padding-top: 50px; }
+
+  .alulamps__variants ul {
+    width: 100%; }
+
+  .alulamps__variants ul li {
+    width: calc((100% - 10px*2)/3); }
+    .alulamps__variants ul li:nth-child(3), .alulamps__variants ul li:nth-child(5) {
+      margin-bottom: 30px; }
+    .alulamps__variants ul li p {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px; }
+    .alulamps__variants ul li span {
+      font-size: 18px; }
+
+  .alulamps__slider1:before,
+  .alulamps__slider2:before {
+    border-top: 30px solid #ffffff; }
+
+  .alulamps__slider1:after,
+  .alulamps__slider2:after {
+    border-bottom: 50px solid #ffffff; }
+
+  .alulamps__slider.slick-slider .slider__nav-arrow {
+    width: 20px;
+    height: auto; }
+
+  .alulamps__lights {
+    padding-top: 20px; }
+    .alulamps__lights .alulamps__variants {
+      padding-top: 50px; }
+
+  .alulamps__cri-descr {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+  .alulamps h6 span {
+    line-height: 1.3; }
+
+  .alulamps__types .alulamps__type-img {
+    width: 200px;
+    height: 200px; }
+
+  .alulamps__figures {
+    padding-top: 20px; }
+
+  .alulamps__figures-descr {
+    margin-bottom: 50px; }
+
+  .alulamps__advantages {
+    padding-top: 20px; }
+
+  .alulamps__slider2 {
+    margin-top: 0; }
+
+  .alulamps__architect {
+    padding-top: 20px; }
+    .alulamps__architect:after {
+      bottom: -50px; }
+
+  .alulamps__architect-descr {
+    margin-bottom: 50px; } }
+@media all and (max-width: 768px) {
+  .alulamps__header {
+    height: 630px;
+    padding-left: 50px;
+    padding-top: 135px; }
+
+  .alulamps__header-title h2 {
+    font-size: 30px; }
+
+  .alulamps__header-title p {
+    font-size: 18px; }
+
+  .alulamps__header-button.button {
+    width: 220px;
+    height: 44px;
+    font-size: 23px;
+    line-height: 44px; }
+
+  .alulamps__series {
+    padding-bottom: 25px; }
+
+  .alulamps__series-names .lamp__item {
+    border: none; }
+
+  .alulamps__series-names .lamp__description,
+  .alulamps__series-names .lamp__description--custom {
+    font-size: 16px; }
+
+  .alulamps__series-logo {
+    padding-left: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+  .alulamps__series-logo svg {
+    margin-right: 20px;
+    margin-bottom: 50px;
+    height: 85px; }
+
+  .alulamps__series-logo svg:last-child, .alulamps__series-logo svg:nth-child(3) {
+    margin-right: 20px; }
+
+  .alulamps__series-names:before,
+  .alulamps__series-names:after {
+    display: none; }
+
+  .alulamps__series-names .lamp__item .lamp__content {
+    padding-right: 100px; }
+
+  .alulamps__structure {
+    padding-top: 25px; }
+
+  .alulamps__structure-legend {
+    margin-top: 50px; }
+
+  .alulamps__descr {
+    display: block; }
+    .alulamps__descr > div {
+      width: 100%; }
+
+  .alulamps__cri-descr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 50px; }
+
+  .alulamps__cri-descr > div:first-child {
+    font-size: 100px;
+    line-height: 1;
+    text-align: left;
+    width: auto;
+    padding-left: 0;
+    padding-right: 20px; }
+
+  .alulamps__types h6 {
+    margin-bottom: 0; }
+
+  .alulamps__types .alulamps__type-wrap:last-child {
+    padding-bottom: 10px; }
+
+  .alulamps__types .alulamps__type {
+    padding-left: 30px; }
+
+  .alulamps__types .alulamps__type-img {
+    margin-right: 70px; }
+    .alulamps__types .alulamps__type-img:after {
+      right: -50px; }
+
+  .alulamps__advantages ul li {
+    margin-bottom: 40px; }
+
+  .alulamps__advantages ul li div {
+    letter-spacing: -0.5px; } }
+@media all and (max-width: 575px) {
+  .alulamps__header {
+    padding-left: 30px;
+    padding-right: 20px; }
+
+  .alulamps__header-title h2 span:after {
+    display: none; }
+
+  .alulamps__series-logo svg {
+    height: 65px;
+    margin-bottom: 30px; }
+
+  .alulamps__series-names .slick-next {
+    top: 0;
+    right: 0;
+    width: 50px; }
+
+  .alulamps__series-names .lamp__item .lamp__content {
+    padding-right: 60px; }
+
+  .alulamps__series-names .lamp__item {
+    padding-top: 30px; }
+
+  .alulamps__series-list.lamp__nav {
+    margin-bottom: 0; }
+
+  .alulamps__descr > div p {
+    font-size: 16px; }
+
+  .alulamps__structure-legend {
+    padding: 0 20px; }
+
+  .alulamps__structure-legend ul li {
+    font-size: 16px;
+    margin-bottom: 30px; }
+    .alulamps__structure-legend ul li:first-child {
+      margin-bottom: 30px; }
+    .alulamps__structure-legend ul li span {
+      width: 30px;
+      height: 30px;
+      line-height: 26px;
+      font-size: 18px; }
+
+  .alulamps__colors {
+    padding: 20px 20px 50px 20px; }
+
+  .alulamps h6 {
+    margin: 30px 0;
+    font-size: 34px; }
+
+  .alulamps__variants {
+    padding-top: 40px; }
+
+  .alulamps__variants ul li {
+    width: calc(50% - 10px);
+    margin-bottom: 20px; }
+    .alulamps__variants ul li:nth-child(3), .alulamps__variants ul li:nth-child(5) {
+      margin-bottom: 20px; }
+    .alulamps__variants ul li .colors__variant {
+      width: 70px;
+      height: 70px; }
+
+  .alulamps__slider1:before,
+  .alulamps__slider2:before {
+    border-top: 20px solid #ffffff; }
+
+  .alulamps__slider1:after,
+  .alulamps__slider2:after {
+    border-bottom: 20px solid #ffffff; }
+
+  .alulamps__lights {
+    padding: 20px 20px 0 20px; }
+
+  .alulamps__lights .alulamps__variants {
+    padding-top: 50px;
+    margin-bottom: 50px; }
+
+  .alulamps__lights .alulamps__variants ul li {
+    width: calc(50% - 10px);
+    margin-bottom: 20px; }
+
+  .alulamps__lights .bottom-line {
+    margin-right: -20px; }
+
+  .alulamps__cri-descr {
+    padding-left: 20px;
+    padding-right: 20px; }
+
+  .alulamps__cri-descr > div:first-child {
+    font-size: 50px; }
+
+  .alulamps h6 span {
+    font-size: 38px; }
+
+  .alulamps__types .alulamps__type {
+    padding: 30px 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .alulamps__types .alulamps__type-img {
+      margin-right: 0;
+      margin-bottom: 20px; }
+      .alulamps__types .alulamps__type-img:after {
+        display: none; }
+
+  .alulamps__types .alulamps__type-title {
+    font-size: 25px;
+    margin-bottom: 20px; }
+
+  .alulamps__types .alulamps__type-features p,
+  .alulamps__types .alulamps__type-features ul {
+    font-size: 16px; }
+
+  .alulamps__figures-descr {
+    padding: 0 20px;
+    margin-bottom: 30px; }
+
+  .alulamps__advantages {
+    padding: 45px 20px 0 20px; }
+
+  .alulamps__advantages ul li {
+    width: 100%;
+    margin-bottom: 20px; }
+    .alulamps__advantages ul li p {
+      font-size: 16px; }
+    .alulamps__advantages ul li div {
+      height: 60px;
+      font-size: 20px;
+      padding: 10px; }
+
+  .alulamps__slider2 {
+    margin-top: 30px; }
+
+  .alulamps__form {
+    padding: 20px; }
+
+  .alulamps__form-title.user-section__title {
+    font-size: 28px; }
+
+  .alulamps__architect {
+    padding-left: 20px;
+    padding-right: 20px; }
+
+  .alulamps__architect-descr {
+    margin-bottom: 50px; }
+
+  .alulamps__architect img {
+    margin-right: -20px; } }
+@media all and (max-width: 482px) {
+  .alulamps__header {
+    padding-top: 55px; } }

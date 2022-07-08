@@ -1,0 +1,1 @@
+<?define("krayt_carwash_TEMPORARY_CACHE", "IzZRU302CQhhBnFgB2IAcAYk");?>

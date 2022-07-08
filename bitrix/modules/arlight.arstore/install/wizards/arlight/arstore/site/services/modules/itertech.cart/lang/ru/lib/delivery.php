@@ -1,0 +1,11 @@
+<?
+$MESS["DATA_ENTITY_ID_FIELD"] = 'ID';
+$MESS["DATA_ENTITY_SITE_ID_FIELD"] = 'Сайт';
+$MESS["DATA_ENTITY_NAME_FIELD"] = 'Название';
+$MESS["DATA_ENTITY_DESCRIPTION_FIELD"] = 'Описание';
+$MESS["DATA_ENTITY_PRICE_FIELD"] = 'Стоимость';
+$MESS["DATA_ENTITY_IMAGE_FIELD"] = 'Лого';
+$MESS["DATA_ENTITY_ACTIVE_FIELD"] = 'Активность';
+$MESS["DATA_ENTITY_SORT_FIELD"] = 'Сортировка';
+
+

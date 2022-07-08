@@ -1,0 +1,25 @@
+.field-discount-percent {
+    max-width: 65%;
+    float:left;
+    margin: 0 0 0 10px;
+}
+.percent_text {
+    display: block;
+    float: left;
+    margin: 12px 0 0 10px;
+    font-size: 17px;
+}
+.personal__order-total-item.personal__order-custom-discount {
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+

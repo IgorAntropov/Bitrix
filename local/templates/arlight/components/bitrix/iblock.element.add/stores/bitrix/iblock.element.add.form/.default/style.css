@@ -1,0 +1,15 @@
+.edit-store-img {
+    width: 250px;
+    margin-top: 1rem;
+}
+
+.edit-store-img img {
+    width: 100%;
+}
+
+[name="iblock_add"] tr {
+    border-bottom: solid 1px;
+}
+[name="iblock_add"] tr td{
+    padding: 1rem;
+}

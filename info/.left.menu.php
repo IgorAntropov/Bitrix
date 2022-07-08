@@ -1,0 +1,67 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Каталоги", 
+		"/info/documents/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Проекты", 
+		"/info/projects/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Видео", 
+		"/info/video/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Архив вебинаров",
+		"/info/webarchive/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Статьи", 
+		"/info/articles/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Вопрос-ответ", 
+		"/info/faq/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Калькуляторы", 
+		"/info/calc/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Схемы монтажа", 
+		"/info/arrangement/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сертификаты", 
+		"/info/certificates/",
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

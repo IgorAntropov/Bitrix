@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <g transform="translate(-28 -28)">
+        <path d="M30,0A30,30,0,1,1,0,30,30,30,0,0,1,30,0Z" transform="translate(28 28)" fill="#0cb423"/>
+        <path d="M12.58,0V-14.24H11.06V-2.86L3.5-14.24H2.06V0H3.58V-11.42L11.14,0ZM25.54,0V-1.36H18.22V-6.5h6.24V-7.86H18.22v-5.02h7.32v-1.36H16.7V0ZM43.4-14.24H41.78L39-2.76,35.86-14.24H34.5L31.36-2.76,28.58-14.24H26.96L30.6,0h1.42l3.16-11.4L38.34,0h1.42Z"
+              transform="translate(36 66.288)" fill="#fff"/>
+    </g>
+</svg>
